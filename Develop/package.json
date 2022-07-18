@@ -1,16 +1,23 @@
 {
-  "name": "note-taker",
+  "name": "NoteTakerExpress",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "An app that allows you to write, save, and delete notes.",
+  "main": "./Develop/public/assets/js/index.js",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FPCITS/NoteTakerExpress.git"
   },
-  "author": "",
-  "license": "ISC",
+
+  "author": "Sara Hernandez",
+  "license": "MIT",
+
+ "homepage": "https://github.com/FPCITS/NoteTakerExpress#readme",
   "dependencies": {
-    "express": "^4.18.1",
-    "fs": "^0.0.1-security",
-    "path": "^0.12.7"
+    "express": "^8.2.4",
+    "jest": "^25.5.4",
+    "mysql": "^2.18.1",
+    "util": "^0.12.4"
   }
 }
+
