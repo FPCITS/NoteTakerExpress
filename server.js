@@ -65,5 +65,5 @@ app.get("*", function(req, res) {
 });
 //Listening
 app.listen(PORT, () => {
-    console.log("App listening on PORT " + PORT);
+  console.log(`API server now on port ${PORT}!`);
 });
