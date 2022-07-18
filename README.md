@@ -45,14 +45,13 @@ You can contribute to this project by:
 ## Testing
 
 
- Step 1: Copy repository from GitHub onto your device <br>
+
+ Step 1: Clone repository from GitHub onto your device <br>
  Step 2: Launch your terminal. <br>
- Step 3: Run npm install for the following dependencies in your CLI or terminal:<br>
-- Inquirer<br>
-- fs<br>
-- Util <br><br>
+ Step 3: Run npm install for dependencies needed. <br>
  Step 4: Navigate to the downloaded repository via your terminal<br>
- Step 5: Launch Index.HTML in browser
+ Step 5: Launch node server.js<br>
+ Step 6: Launch http://localhost:3000 in your browser.
       
 ## Questions
       
