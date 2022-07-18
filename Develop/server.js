@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 app.get("/api/notes", function(req, res) {
-  readFileAsync("./develop/db/db/json", "utf8").then(function(data) {
+  readFileAsync("./develop/db/db.json", "utf8").then(function(data) {
     notes = [].concat(JSON.parse(data))
     res.json(notes);
   })
